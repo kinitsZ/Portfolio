@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-areas: 
+        "grid1 grid2"
+        
+
+}
+.grid1{
+    grid-area:grid1;
+    background-color: #879d9f;
+    padding-left: 20px;
+}
+.grid2{
+    grid-area: grid2;
+    color:#9dc9cc;
+    background-color: black;
+    background-image: url(/images/flat-lay-work-space-with-notebook-keyboard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*
+}
+.firstcertifimg{
+    background-image: url(../i);
+}
+*/
+
+nav >li{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    list-style-image: url(/images/arrow_13476014.png);
+    
+}
+nav >li>a{
+   
+    text-decoration:none;
+}
+nav >li>a:hover{
+    color:rgb(124, 132, 34,0.56);
+    text-decoration: underline;}
+}
+.{
+    text-decoration-line: none; 
+    font-weight: bold;
+    font-size: 25px;
+}
+   
+.back{
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.back a{
+  text-decoration-line: none;
+}
+.back a:hover{
+    color:rgb(124, 132, 34,0.56);
+    font-size: 25px;
+  
+}
+.cert a{
+    text-decoration-line:none;
+}
+.cert a:hover{
+    color:rgb(124, 132, 34,0.56);
+    text-decoration: underline;
+}
+
+.listof li{
+    text-decoration-color: darkslateblue;
+}    
+    
